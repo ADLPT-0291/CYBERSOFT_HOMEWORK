@@ -1,0 +1,36 @@
+header{
+    padding-top: 2.6rem;
+    padding-bottom: 2.6rem;
+    padding-left: 15rem;
+    /* nếu muốn cố định thì nên dùng heigh thay vì padding */
+    border-bottom: 0.1rem solid white;
+
+
+}
+.header__logo {
+    font-size: 3rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 900;
+    color: black;
+}
+.header__logo i{
+    padding: 15px;
+    background-color: #002146;
+    color: #FDC82B;
+    border-radius: 1000px;
+}
+.header_nav{
+    display: flex;
+}
+.header_nav li a{
+    margin-left: 20px;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.header_nav li{
+    list-style: none;
+    cursor: pointer;
+}

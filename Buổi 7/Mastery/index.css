@@ -1,0 +1,31 @@
+/* 
+rem
+phụ thuộc vào font size của thẻ html (16px mặc định) */
+html{
+    /* Để xét đơn vị với rem */
+    font-size: 10px;
+}
+body{
+    /* Khôi phục lại kích thước font-size mặc định của trình duyệt */
+    font-size: 1.6rem;
+    font-family: "Oswald";
+    font-weight: 400;
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+img{
+
+    /* do img là inline nên làm cho thẻ cha không lấy đúng kích thước
+    content bên trong */
+    display: block;
+    /* set để khi hình ảnh ăn theo kích thước của cha */
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
