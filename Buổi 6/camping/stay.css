@@ -1,0 +1,67 @@
+#stay{
+    /* ghi nhanh
+    bgc */
+    background: #FAF4F2;
+}
+
+
+.stay_content{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    background-color:#F8E2DB;
+    border-radius: 0px 20px 20px 0px;
+}
+.stay__left{
+    background: url(./mask.png);
+    background-size: cover;
+    background-position: center;
+}
+.stay__left img{
+    padding: 40px 40px 40px 40px;
+    background-size: cover;
+    background-position: center;
+}
+.stay__right{
+    width: 50%;
+    padding-left: 50px;
+}
+.stay__right .title {
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: 900;
+    color: #8D8D8D;
+}
+.stay__right .content{
+    font-size: 15px;
+    margin: 0;
+    color: #9E9A99;
+}
+.stay__right_container p{
+    color: #8D8D8D;
+    font-weight: 900; 
+}
+.stay__right_container{
+    display: flex;
+}
+
+.img_flex{
+    display: flex;
+    /* justify-self: flex-end; */
+}
+.Apple{
+    margin-right: 5px;
+}
+.follow{
+    display: flex;
+}
+.follow button{
+    padding: 0;
+    border: none;
+}
+.follow button i {
+    color: #E76F51;
+    font-size: 30px;
+    padding-right: 20px;
+    background-color: #F8E2DB;
+}

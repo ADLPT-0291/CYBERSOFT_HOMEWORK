@@ -1,0 +1,2 @@
+index.css: file tạo css chung cho toàn dự án
+nên để file này trên các file link css còn lại để độ ưu tiên tệp này sẽ thấp nhất

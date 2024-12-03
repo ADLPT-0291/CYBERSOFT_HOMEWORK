@@ -1,0 +1,17 @@
+body {
+    /* reset những thuộc tính mặc định của trình duyệt */
+    margin: 0;
+    /* TOàn bộ element đều về font chữ Roboto */
+    font-family:"Roboto";
+}
+/* *{} định dạng tất cả các thẻ css đều định dạng pardding - border */
+*{
+        /* Cố định kích thước chiều rộng 
+    - pardding - border để tăng kích thước thẻ, thì nó sẽ thu nhỏ content lại*/
+    box-sizing: border-box;
+}
+
+img {
+    display: inline-block;
+    width: 100%;
+}

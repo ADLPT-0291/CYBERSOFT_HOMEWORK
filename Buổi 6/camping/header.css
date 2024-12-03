@@ -1,0 +1,77 @@
+header {
+    background-color: #f5e1db;
+    padding-top: 10px;
+    
+
+}
+/* tạo ra phần này để tách khối ra nếu reder kích thưỚc nội dung
+thì chỉ nội dụng bị giảm theo 1440px còn màu nền không bị */
+.container{
+    /* đặt khối vừa kích thước màn hình tiêu chuẩn laptop
+    max width đặt giới hạn tối đa màn hình*/
+    max-width: 1440px;
+    /* Căn chỉnh khối vào giữa */
+    margin-left: auto;
+    margin-right: auto;
+    /* padding: 10px; */
+}
+
+/* 
+-Những thẻ li có thẻ cha là header thì thay đổi */
+header li {
+    display: inline;
+}
+header a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+header ul {
+    padding-left: 0px;
+    margin: 0;
+}
+
+/* box model 
+*kích thước: width / height
+-margin: không tính bằng kích thước của element. Tạo khoảng cách giữa các element với nhau 
+-padding: tính vào kích thước của element
+- boder: tính vào kích thước của element*/
+/* inline
+-không xét được width, height
+-không ăn padding top bottom */
+/* header nav ul a {
+    border: 1px solid red;
+    padding: 10px;
+    margin: 10px;
+} */
+ /* Dùng padding để tăng cách đều khoảng cách giữa các a */
+ /* cách viết nhanh
+ __: 10px =>                 tlrb:10px 
+ __: 10px 20px ->            tb:10px    lr:20px
+ __: 10px 20px 30px          t:10px     lr:10px     b:10px
+ __: 10px 20px 30px 40px     t:10px     lr:20px     r:30px        b:40px 
+    top
+left    right
+    bottom
+
+ */
+ header nav ul a {
+    /* short hand
+    padding: 10px
+     */
+    padding: 10px;
+    /* padding-top:10px
+    padding-left:10px
+    padding-right:10px
+    padding-bottom:10px */
+    display: inline-block;
+ }
+header .logo {
+    padding-left: 10px;
+ }
+
+ header .logo img {
+    /* Xoá đi giá trị mặc định của global */
+    width: unset;
+ }

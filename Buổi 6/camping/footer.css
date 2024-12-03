@@ -1,0 +1,58 @@
+#footer{
+    /* ghi nhanh
+    bgc */
+    background: #FAF4F2;
+    padding-top: 100px;
+}
+.footer_container{
+    background-color:#F8E2DB;
+    border-radius: 100px 100px 0px 0px;
+}
+.footer_content{
+    display: flex;
+}
+
+.footer_content{
+    padding: 60px;
+}
+.content_left{
+    width: 40%;
+}
+.content_title{
+    font-size: 18px;
+    font-weight: 900;
+    color: #3B3735;
+}
+.content{
+    font-size: 15px;
+    color: #403C3A;
+}
+.content_right{
+    display: flex;
+}
+.card_footer{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.card_footer ul{
+    list-style: none;
+    /* text-align: left; */
+    padding: 0;
+    font-size: 15px;
+    color: #403C3A;
+}
+.card_footer li{
+    padding-bottom:10px;
+    cursor: pointer;
+}
+.content_right p {
+    color: #3B3735;
+    font-size: 18px;
+    font-weight: 900;
+}
+.footer_copyrights{
+    font-size: 15px;
+    padding-bottom: 20px;
+    text-align: center;
+    cursor: pointer;
+}

@@ -1,0 +1,110 @@
+#activities{
+    /* ghi nhanh
+    bgc */
+    background-color:#FAF4F2;
+    padding: 40px 4px;
+}
+.activities__header{
+    text-align: center;
+}
+.activities__header p{
+    font-size: 30px;
+    color: #8d8d8d;
+    margin: 10px;
+}
+.activities__contents{
+    /* margin: 0 40px; */
+    /* # Flex
+flex container: nơi đặt thuộc tính "display: flex" flex item: 
+nội dung bên trong không được xét kích thước with riêng cố định. Nếu 
+có thì sẽ làm cho nội dung của flex tràn màn hình. */
+    display: flex;
+}
+.activities__header img{
+        /* Xoá đi giá trị mặc định của global */
+        width: unset;
+}
+.card{
+    padding: 40px;
+    background-color: white;
+    border: 1px  ;
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 20px;
+    /* width: 25%;
+    display: inline-block; */
+    margin: 0 10px;
+    text-align: center;
+}
+
+.card__img{
+    border-radius: 8px;
+}
+
+.card__title{
+    font-weight: 600;
+    font-size: 20px;
+}
+.card__desc{
+    color: gray;
+}
+.card__btn{
+    padding: 8px 20px;
+    text-transform: capitalize;
+    /* làm tròn trái phải  */
+    border-radius: 9999px;
+    /* chuyển thành button hiên bàn tay nhấn */
+    cursor: pointer;
+    font-weight: 600;
+    border: #FAF4F2;
+    color: #9B9B9B;
+    /* background-color: #E8E8E8;
+    
+    border-radius: 30px;
+    font-weight: 600;
+    color: #9B9B9B; */
+}
+.view-all{
+    text-align: center;
+    /* khoảng cách giữa các thẻ thì nên dùng margin */
+    margin: 30px;
+}
+.view-all button{
+    padding: 8px 40px;
+    border-radius: 9999px;
+    /* currentColor phụ thuộc vào thuộc tính color */
+    color: #E76F51;
+    border: 1px solid currentColor;
+    /* transparent là trong suốt không nền */
+    background-color: transparent;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.btn-heart{
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    color: #E76F51;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.wrapper__img {
+    position: relative;
+}
+
+.clear{
+    clear: both;
+}
+
+
+/* # absolute
+
+không tính vào diện tích thẻ cha chứa nó phải code thêm position relative cho thẻ cha mà nó muốn đi theo, nếu không thì sẽ đi theo body
+không được code cùng lúc 4 hướng, 
+chỉ chọn 1 trong 2 hướng: top left, top right, right bottom, bottom left.
+X trái phải trên, phải trái dưới.
+con: absolute
+cha: relative*/

@@ -1,0 +1,3 @@
+note câu hỏi buổi 6 camping
+phần width unset
+nếu vậy thì khi setchung globle tại index width 100% thì tất cả các hình trong trang web dang  dinh dạng display inline thì phải di sửa từng cái width unset hay còn cách nào kahsc không
