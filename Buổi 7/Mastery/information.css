@@ -1,0 +1,154 @@
+#information{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: #F6F6F6;
+}
+
+.information_wrapper{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.information_wrapper h2{
+    font-size: 30px;
+}
+
+.latestpost{
+    width: 50%;
+    margin-right: 100px;
+    position:relative;
+}
+
+.latestpost button{
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    color: #022246;
+    background-color:#FDC82B;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    right: 0;
+    bottom: -60px;
+}
+.latestpost_wrapper{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    background-color: white;
+}
+.latestpost_title{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #F6F6F6;
+    margin: 0px 20px;
+    padding: 20px 0px;
+}
+
+.latestpost_title:last-child{
+    border-bottom:none;
+}
+
+.title_img{
+    width: 50%;
+}
+.title_img img{
+    border-radius: 5px;
+}
+.title_content{
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.title_content h3{
+    margin: 0;
+    padding: 0;
+    color: #1D1E2E;
+}
+
+.title_content h4{
+    color: #979797;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.title_content p{
+    color: #676767;
+    margin: 0;
+}
+
+.events{
+    width: 50%;
+    position:relative;
+}
+
+.events_wrapper{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    margin: 0;
+}
+
+.events_content{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.event_date{
+    width: 40%;
+    margin: 20px 20px 0px 20px;
+    text-align: center;
+}
+.event_date .month{
+    background-color: #FDC82B;
+    color: #1C1D2D;
+    border-radius: 5px 5px 0px 0px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    line-height: 25px;
+}
+.event_date h4{
+    margin: 0;
+    font-size: 25px;
+    padding-top: 10px;
+}
+.event_date p{
+    margin: 0;
+    font-size: 15px;
+}
+
+.event_date .year{
+    background-color: #002146;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 0px 0px 5px 5px;
+    font-weight: 300;
+}
+
+.event_luctus p{
+    font-size: 15px;
+    color: #676767;
+}
+
+.event_luctus h4{
+    font-size: 13px;
+    color: #213C5D;
+}
+
+.events button{
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    color: #022246;
+    background-color:#FDC82B;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    right: 0;
+    bottom:75px;
+}

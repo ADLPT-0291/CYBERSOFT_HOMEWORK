@@ -29,6 +29,7 @@ header{
     display: inline-block;
     text-decoration: none;
     color: black;
+    font-weight: 500;
 }
 .header_nav li{
     list-style: none;

@@ -1,0 +1,27 @@
+#statistic{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #F6F6F6;
+}
+
+.statistic_wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* display: inline-block; */
+}
+
+.number_item{
+    display: flex;
+}
+
+.number_item h2{
+    font-size: 60px;
+    margin: 0;
+}
+
+.number_item p{
+    margin: 0;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 15px;
+}
