@@ -1,0 +1,78 @@
+#readers_say{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.readers_say_wrapper h1 {
+    text-align: left;
+    font-size: 30px;
+}
+.readers_say_list{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.readers_say_profile{
+    width: 20%;
+}
+
+.readers_say_profile img{
+    width: 90px;
+    height: 90px;
+}
+.readers_say_text{
+    width: 80%;
+}
+.readers_say_text p {
+    font-weight: 500;
+}
+
+.readers_say_text h4{
+    font-size: 18px;
+}
+
+.readers_say_text h5{
+    font-size: 18px;
+    font-weight: 300;
+    color: #7F8CA8;
+}
+
+.readers_say_end{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.readers_say_amazon{
+    border: 2px solid #F5F7F8;
+    border-radius: 10px;
+    padding: 28px 80px;
+    margin-right: 25px;
+}
+
+.readers_say_amazon img{
+    padding-bottom:10px ;
+}
+
+.readers_say_good img{
+    padding-bottom:10px ;
+}
+
+.readers_say_good{
+    border: 2px solid #F5F7F8;
+    border-radius: 10px;
+    padding: 28px 80px;
+}
+.readers_say_amazon_text{
+    display: flex;
+    padding: 0;
+}
+
+.readers_say_amazon_text img{
+    font-size: 1px;
+    left: 50%; transform: translateX(-20%);
+}
+
+.readers_say_amazon_text p{
+    line-height: 15px;
+    text-decoration: underline;
+}

@@ -1,0 +1,112 @@
+div.altamira-gdpr-cookie-consent {
+    background-color: #ccc;
+    padding: 15px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    max-width: 400px;
+    border-radius: 10px;
+    position: fixed;
+    z-index: 999999;
+    color: #000000;
+    margin: 20px;
+}
+div.altamira-gdpr-cookie-consent div.heading {
+    display: flex;
+    justify-content: space-between;
+}
+div.altamira-gdpr-cookie-consent button.altamira-gdpr-cookie-consent-close {
+    width: 21px;
+	height: 21px;
+	padding: 0;
+	margin: -4px -4px 0 1em;
+	border-radius: 50%;
+    position: relative;
+    flex-shrink: 0;
+}
+div.altamira-gdpr-cookie-consent button.altamira-gdpr-cookie-consent-close:before, 
+div.altamira-gdpr-cookie-consent button.altamira-gdpr-cookie-consent-close:after {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    content: ' ';
+    height: 12px;
+    width: 1px;
+    background-color: #fff;
+    background-color: var(--close-color);
+}
+div.altamira-gdpr-cookie-consent button.altamira-gdpr-cookie-consent-close:before {
+    transform: rotate(45deg);
+}
+div.altamira-gdpr-cookie-consent button.altamira-gdpr-cookie-consent-close:after {
+    transform: rotate(-45deg);
+}
+div.altamira-gdpr-cookie-consent form, div.altamira-gdpr-cookie-consent fieldset {
+    margin: 0;
+    padding: 0;
+    border: none
+}
+div.altamira-gdpr-cookie-consent form input {
+	opacity: 100 !important;
+	position: relative !important;
+	cursor: pointer;
+	display: inline-block
+}
+div.altamira-gdpr-cookie-consent form label {
+	color: #000000;
+	display: inline-block;
+	font-weight: normal;
+	cursor: pointer;
+	font-size:12px;
+}
+div.altamira-gdpr-cookie-consent p  {
+    margin: 0 0 5px 0;
+	font-size: 12px;
+	font-family: inherit
+}
+div.altamira-gdpr-cookie-consent p.push  {
+    margin: 10px 0 0;
+    text-align-last: justify;
+}
+.altamira-gdpr-cookie-consent .push > * {
+    text-align-last: initial;
+}
+div.altamira-gdpr-cookie-consent b {
+    font-size: 14px;
+    font-family: inherit;    
+}
+div.altamira-gdpr-cookie-consent a.altamira-gdpr-cookie-consent-help-link {
+    color: chocolate;
+    font-size: 12px;
+	font-family: inherit    
+}
+div.altamira-gdpr-cookie-consent a.altamira-gdpr-cookie-consent-help-link:hover {
+    text-decoration: underline
+}
+div.altamira-gdpr-cookie-consent button { 
+    background-color: chocolate;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;    
+	font-family: inherit;
+	text-transform: none;
+	font-size: inherit;
+	font-weight: normal;
+	height: auto;
+}
+div.altamira-gdpr-cookie-consent a.altamira-gdpr-cookie-consent-change-settings-href {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+  -moz-opacity: 0.8;
+  -khtml-opacity: 0.8;
+  opacity: 0.8;
+  display: inline-block;
+}
+div.altamira-gdpr-cookie-consent div.altamira-gdpr-cookie-settings {
+    display: none
+}
+div.altamira-gdpr-cookie-consent button.altamira-gdpr-cookie-consent-save,
+div.altamira-gdpr-cookie-consent button.altamira-gdpr-cookie-consent-reject {
+    margin-right: 0.5em;
+    margin-bottom: 1em;
+}

@@ -1,0 +1,1 @@
+data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='15'%3E%3Cg fill='none' fill-rule='evenodd' stroke='%2395A5A6' transform='translate(1 1)'%3E%3Ccircle cx='6' cy='4' r='4'/%3E%3Cpath d='M12 14a6 6 0 10-12 0'/%3E%3C/g%3E%3C/svg%3E

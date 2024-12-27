@@ -1,0 +1,83 @@
+.read_list{
+    display: flex;
+}
+.read_wrapper{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.read_wrapper h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.read_people{
+    margin-right: 10px;
+}
+.read_information p {
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.read_information_list ul{
+    padding-inline-start: 0;
+}
+.read_information_list ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.read_information_list ul li img{
+    margin-right: 10px;
+}
+
+.tittle{
+    font-weight: 200;
+}
+
+.read_sub{
+    padding: 50px 20px;
+    background-color: #F4F6F7;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.human{
+    width: 30%;
+}
+.human img{
+    padding-left: 20px;
+}
+
+.read_sub_text{
+    padding-right: 20px;
+}
+.read_sub_form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box_email{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 150px;
+    border: 1px solid #BEBEBE;
+    margin-right: 10px;
+}
+
+
+.boxjonin button{
+    background-color: #3586f8;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.boxjonin button:hover{
+    background-color: #3280EE;
+}

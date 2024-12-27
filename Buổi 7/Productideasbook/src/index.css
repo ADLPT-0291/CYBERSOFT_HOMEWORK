@@ -1,0 +1,22 @@
+html{
+    font-size: 62.6%;
+    background: #FFFFFF;
+}
+body{
+    font-family: Freight Sans Book;
+    font-size: 1.6rem;
+    font-size: 18px;
+    font-weight: 500;
+}
+.container {
+    max-width: 114rem;
+    margin: 0 auto;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+.mini_container {
+    max-width: 79.4rem;
+    margin: 0 auto;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}

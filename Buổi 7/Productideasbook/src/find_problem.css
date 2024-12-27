@@ -1,0 +1,44 @@
+#find_problem{
+    background-color: #F4F6F7;
+    margin-bottom: 100px;
+}
+
+.find_problem_wraper{
+    padding-top: 50px;
+    display: flex;
+}
+
+.find_problem_list{
+    display: flex;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.find_problem_img{
+    margin-right: 10px;
+}
+
+.find_problem_goals{
+    /* padding-left: 100px; */
+    position: relative;
+    padding-top: 50px;
+}
+
+.and_more p{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 30px;
+    color: #7F8C8D;
+}
+
+.canva{
+    position: absolute;
+    font-size: 12px;
+    padding-top: 100px;
+    padding-right: 30px;
+    top:0;
+    right: 0;
+}
+.canva p{
+    color: #7F8CA8;
+}

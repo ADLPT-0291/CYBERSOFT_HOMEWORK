@@ -1,0 +1,122 @@
+#problems{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.wrapper_problems{
+    display: flex;
+    justify-items: space-between;
+    align-items: center;
+    border: 3px solid #ECF0F1;
+    border-radius: 10px;
+}
+
+.view_table{
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.view_table_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.view_table_text img{
+    margin-right: 10px;
+}
+
+.view_table_text p{
+    font-size: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+} 
+.click:hover{
+    color: #2D75DB;
+}
+.problems_list{
+    display: flex;
+    justify-items: space-between;
+    align-items: center;
+}
+
+.problems_list .img_fall{
+    margin-left: 3px;
+    width: 25px;
+    height:15px;
+}
+
+.problems_img img{
+    padding-right: 10px;
+    width: 30px;
+    height:30px;
+}
+
+.problems_text{
+    font-size: 20px;
+}
+
+.producthunt{
+    width: 100%;
+    display: grid; place-content: center;
+}
+
+.producthunt img{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.the_way{
+    text-align:center ;
+}
+.good {
+    position: relative;
+    display: inline-block;
+}
+.good:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 4px; /* Điều chỉnh khoảng cách giữa chữ và hình nền */
+    height: 5px; /* Điều chỉnh chiều cao của hình nền */
+    background: url(../public/img/underline-2-e53d1c2902.svg);
+    background-size: contain;
+}
+.lots {
+    position: relative;
+    display: inline-block;
+}
+.lots:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 4px; /* Điều chỉnh khoảng cách giữa chữ và hình nền */
+    height: 4px; /* Điều chỉnh chiều cao của hình nền */
+    background: url(../public/img/underline-2-e53d1c2902.svg);
+    background-size: contain;
+}
+.the_way p{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.the_way_warpper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.the_way_img{
+    padding-right: 10px;
+    width: 50px;
+    height: 40px;
+}
+
+.the_way_text{
+    color: #7F8CAB;
+}
+.the_way_text p{
+    font-size: 18px;
+    font-weight: 550;
+}

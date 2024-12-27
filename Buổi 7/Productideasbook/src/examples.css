@@ -1,0 +1,38 @@
+.examples_wrapper h1 {
+    text-align: center;
+    font-weight: 600;
+}
+.examples_slider{
+    border-radius: 10px;
+    background-color: #F4F6F7;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    padding-bottom: 30px;
+    display: flex;
+    /* tạo khoảng cách giữa các mỗi flex item 
+    gap lưu ý chỉ hoạt động với flex grid */
+    gap: 35px;
+    /* 
+    context: nội dung con nào vượt quá kích thước cha
+    -hidden:  nội dung con sẽ bị ẩn đi 
+    -auto: thẻ cha sẽ xuất hiện thành thanh scroll */
+    overflow: auto;
+}
+
+.examples_title{
+    width: 68rem;
+    /* 0: không cho phép bóp icon
+    1: cho phép bóp kích thước icon */
+    flex-shrink: 0;
+}
+
+.examples_title p {
+    padding: 35px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.examples_title .examples_cap{
+    font-weight: 900;
+}

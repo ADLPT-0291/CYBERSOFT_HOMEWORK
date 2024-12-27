@@ -1,0 +1,1 @@
+data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cpath fill='none' stroke='%233586F8' stroke-width='1.5' d='M4.509 7.867l2.696 2.697 6.42-6.243'/%3E%3C/svg%3E

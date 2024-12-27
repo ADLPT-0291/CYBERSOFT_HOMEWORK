@@ -1,0 +1,97 @@
+#hero{
+    margin: 50px;
+}
+.hero_container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero_left{
+    margin-right: 20px;
+}
+
+.hero_left img{
+    width: 100%;
+}
+.hero_right{
+    margin-top: 100px;
+}
+.hero_tittle{
+    display: flex;
+}
+.hero_tittle .avatar{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+}
+.hero_right h2 span img{
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.h2_tittle{
+    display: flex;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 300;
+    font-style: italic; /* Làm chữ nghiêng */
+    line-height: 40px;
+}
+
+.hero_right h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-weight: 900;
+    font-size: 50px;
+    line-height:50px;
+}
+
+.hero_right p{
+    padding-left: 10px;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 300;
+}
+
+.hero_info{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 10px;
+    align-items: center;
+}
+
+
+.hero_info button{
+    background-color: #3586f8;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 50px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.hero_info button:hover{
+    background-color: #3280EE;
+}
+.hero_rating{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* margin-top: 30px; */
+    margin-left: 20px;
+    place-content: center;
+}
+.hero_rating img{
+    width: 100%;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.hero_rating p{
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #7F8C8D;
+}

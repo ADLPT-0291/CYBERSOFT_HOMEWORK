@@ -1,0 +1,51 @@
+header{
+    margin: 50px 0 auto;
+}
+.herder_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_left{
+    display: flex;
+}
+
+.header_left img{
+    margin-right: 10px;
+}
+
+.header_title h1{
+    color: #000;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 24px;
+}
+.header_title p{
+    color: #7f8c8d;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.header_right{
+    line-height: 24px;
+}
+.header_right ul{
+    display: flex;
+    /* xoá dấu chấm trước list */
+    list-style: none;
+    /* xoá gạch chân */
+    padding: 10px;
+    gap:4rem;
+}
+
+.header_right ul a{
+    text-decoration: none;
+    font-weight: 200;
+    padding: 10px;
+    color: black;
+}
+
+.header_right ul a.active{
+    color: #2D75DB;
+}
