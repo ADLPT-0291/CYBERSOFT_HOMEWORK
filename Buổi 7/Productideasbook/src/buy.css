@@ -138,3 +138,19 @@
     height: 69px;
 }
 
+@media screen and (max-width:768px){
+    .buy_warrper{
+        display: block;
+    }
+    .ebook
+    {
+        margin: 10px;
+        width: 698px;
+        height: 199px;
+        /* display: flex; */
+    }
+    .buy_warrper .img{
+        width: 92px;
+        height: 105px;
+    }
+}

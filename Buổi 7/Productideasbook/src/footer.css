@@ -27,3 +27,17 @@
 .footer_wrapper{
     border-top: 2px solid #F5F7F8;
 }
+
+@media screen and (max-width:768px){
+    .footer_wrapper{
+        padding-left: 10px;
+    }
+    .footer_contents{
+        display: block;
+    }
+
+    .footer_list ul{
+        display: block;
+        padding: 0;
+    }
+}
