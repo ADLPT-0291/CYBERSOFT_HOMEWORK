@@ -1,3 +1,6 @@
+#read{
+    padding-bottom: 100px;
+}
 .read_list{
     display: flex;
 }
@@ -18,7 +21,10 @@
     font-weight: 600;
     line-height: 20px;
 }
-
+.read_information_list{
+    padding-top: 10px;
+    padding-bottom:10px ;
+}
 .read_information_list ul{
     padding-inline-start: 0;
 }
@@ -43,9 +49,6 @@
     justify-content: space-around;
     align-items: center;
 }
-.human{
-    width: 30%;
-}
 .human img{
     padding-left: 20px;
 }
@@ -53,18 +56,15 @@
 .read_sub_text{
     padding-right: 20px;
 }
+
+.read_sub_text p{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
 .read_sub_form{
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
-}
-
-.box_email{
-    background-color: white;
-    border-radius: 5px;
-    padding: 10px 150px;
-    border: 1px solid #BEBEBE;
-    margin-right: 10px;
 }
 
 
@@ -76,6 +76,17 @@
     padding: 10px 30px;
     cursor: pointer;
     font-weight: 600;
+}
+
+.box_email input{
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 120px;
+    border: 2px solid black;
+    margin-right: 10px;
 }
 
 .boxjonin button:hover{

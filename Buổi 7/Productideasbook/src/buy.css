@@ -1,0 +1,147 @@
+#buy{
+    padding-bottom:30px;
+}
+
+
+.buy_thebook{
+    text-align: center;
+}
+
+.buy_thebook h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.actionable {
+    position: relative;
+    display: inline-block;
+}
+.actionable:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 4px; /* Điều chỉnh khoảng cách giữa chữ và hình nền */
+    height: 4px; /* Điều chỉnh chiều cao của hình nền */
+    background: url(../public/img/underline-2-e53d1c2902.svg);
+    background-size: contain;
+}
+
+.buy_warrper{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.buy_warrper .img{
+    width: 155px;
+    height: 207px;
+}
+.ebook{
+    width: 326px;
+    height: 469px;
+    border-radius: 5px;
+    padding: 30px 42px;
+    background-color: #ECF0F1;
+    text-align: center;
+    padding: 42px 30px 36px;
+    
+}
+.ebook .img , .paperback .img {
+    left: 50%; transform: translateX(30%);
+}
+
+.ebook h2 , .paperback h2 {
+    padding: 10px 0;
+}
+
+.ebook p , .paperback p {
+    padding: 10px 0;
+    color: #889495;
+    font-size: 15px;
+}
+
+.ebook button , .paperback button {
+    background-color: #3586f8;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 50px;
+    margin: 5px 0;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+
+.ebook_list {
+    font-size: 15px;
+    color: #889495;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.paperback{
+    width: 326px;
+    height: 469px;
+    border-radius: 5px;
+    padding: 30px 42px;
+    background-color: #ECF0F1;
+    text-align: center;
+    padding: 42px 30px 36px;
+}
+
+
+.paperback_list{
+    font-size: 15px;
+    color: #889495;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paperback_text p {
+    padding-left: 10px;
+    color: black;
+}
+
+.buy_also{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.buy_also p{
+    font-size: 13px;
+    color: #889495;
+    text-transform: uppercase;
+}
+
+.my_previous{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-top: 2px solid #F5F7F8;
+    border-bottom: 2px solid #F5F7F8;
+    margin:50px;
+    padding: 10px;
+}
+
+.my_previous img{
+    width: 84px;
+    height: 69px;
+}
+
+.FAQ_contents{
+    padding-bottom: 50px;
+}
+
+.FAQ_contents h3{
+    padding-top: 15px;
+}

@@ -42,10 +42,11 @@
     height: 100px;
 }
 .ideas_list p{
-    font-size: 15px;
+    font-size: 13px;
     margin-bottom: 10px;
     color: #7f8c8d;
     font-weight: 300;
+    text-transform: uppercase;
 }
 
 .ideas_border{

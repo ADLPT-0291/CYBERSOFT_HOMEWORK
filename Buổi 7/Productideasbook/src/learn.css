@@ -3,14 +3,22 @@
     max-width: 1024px;
     margin: 0 auto;
 }
+
+.wrapper_learn{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .wrapper_learn h1{
     font-size: 40px;
     font-weight: 500;
+    padding-left: 20px;
 }
 .learn_list{
     display: flex;
     justify-items: space-between;
     align-items: center;
+    padding: 20px;
 }
 .learn_list ul li {
     list-style: none;

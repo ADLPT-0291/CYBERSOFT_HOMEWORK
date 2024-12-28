@@ -8,10 +8,11 @@ header{
 
 .header_left{
     display: flex;
+    align-items: center;
 }
 
 .header_left img{
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .header_title h1{
@@ -29,6 +30,7 @@ header{
 
 .header_right{
     line-height: 24px;
+    font-size: 15px;
 }
 .header_right ul{
     display: flex;
