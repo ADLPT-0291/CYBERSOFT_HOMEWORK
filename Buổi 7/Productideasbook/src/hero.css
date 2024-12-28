@@ -6,6 +6,7 @@
     justify-content: space-around;
 }
 
+
 .hero_left{
     margin-right: 20px;
 }
@@ -94,4 +95,29 @@
     font-weight: 300;
     line-height: 20px;
     color: #7F8C8D;
+}
+@media screen and (max-width:768px){
+    .container{
+        max-width: none;
+        padding: 0;
+    }
+    .hero_container{
+        display: block;
+    }
+
+    .hero_left{
+        margin:0;
+        justify-items: center;
+    }
+    .hero_left img{
+        max-height: 400px;
+        max-width: 287px;
+        align-items: center;
+
+
+    }
+    .hero_right h1{
+        font-size: 32px;
+        font-weight: 900;
+    }
 }

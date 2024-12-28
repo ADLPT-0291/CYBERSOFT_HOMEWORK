@@ -1,29 +1,7 @@
-.footer_contents{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.footer_contents{
-    padding-top: 20px;
-    font-size: 17px;
-    
-}
-.footer_list ul{
-    display: flex;
-    gap: 40px;
-}
-
-.footer_list ul li{
-    list-style: none;
-    font-size: 14PX;
-}
-.Copyright{
-    font-size: 15PX;
-    color: #7F8C8D;
+.FAQ_contents{
     padding-bottom: 50px;
 }
 
-.footer_wrapper{
-    border-top: 2px solid #F5F7F8;
+.FAQ_contents h3{
+    padding-top: 15px;
 }

@@ -120,3 +120,14 @@
     font-size: 18px;
     font-weight: 550;
 }
+
+@media screen and (max-width:768px){
+    .wrapper_problems{
+        display: block;
+    }
+    .view_table{
+        width: 100%;
+        padding: 50px 185px;
+
+    }
+}
