@@ -40,4 +40,9 @@
         display: block;
         padding: 0;
     }
+    .ebook_warpper{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
 }
