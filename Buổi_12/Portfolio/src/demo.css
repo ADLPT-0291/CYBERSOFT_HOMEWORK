@@ -1,0 +1,36 @@
+h1{
+    background-color: blue;
+    font-size: 6rem;
+}
+
+
+/* code cho màn hình nhỏ hơn 800px */
+@media screen and (max-width: 800px) {
+    h1{
+        font-size: 5rem;
+        background-color: yellow;
+
+    }
+}
+
+
+/* code cho màn hình nhỏ hơn 400px */
+@media screen and (max-width: 400px) {
+    h1{
+        font-size: 5rem;
+        background-color: green;
+    }
+}
+
+/* ------------------------------------- */
+@media print {
+    h1{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width=) {
+    
+} {
+    
+}

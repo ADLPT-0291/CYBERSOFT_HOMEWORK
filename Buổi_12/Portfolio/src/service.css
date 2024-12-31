@@ -1,0 +1,123 @@
+.services__title{
+    text-align: center;
+    font-size: 2.4rem;
+    color: var(--clr-primary);
+    position: relative;
+    font-weight: 500;
+}
+.service_wrapper{
+    padding-bottom: 100px;
+}
+.title__placeholder{
+    font-size: 9rem;
+    color: rgba(21, 27, 41, 0.5);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 1;
+    z-index: -1;
+}
+
+
+.services__title::before {
+    content: "";
+
+    position: absolute;
+    top: calc(100% + 1rem);
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 17rem;
+    height: 0.2rem;
+    background-color: var(--clr-secondary);
+}
+
+.services__title::after {
+    content: "";
+    position: absolute;
+    top: calc(100% + 1rem);
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 7rem;
+    height: 0.2rem;
+    background-color: var(--clr-primary);
+}
+.card{
+    text-align: center;
+    padding: 5rem 3rem;
+    border-radius: 0.3rem;
+    border: 1px solid #232935;
+    background-color: #101624;
+    
+
+}
+
+.card_icon{
+    width: 9rem;
+    height: 9rem;
+    padding: 2rem;
+    border-radius: 50%;
+    border: 0.5px solid #3f4551;
+    margin: 0 auto;
+    background-color:#0A101E;
+}
+
+.card_icon svg{
+    /* đối với svg dùng fill chớ không dùng color được */
+    fill:#3f4551;
+}
+
+.card_title{
+    font-size: 2rem;
+    color: white;
+    padding: 1rem 0;
+}
+.card_desc{
+    color: var(--clr-secondary);
+}
+.card .card_icon svg, 
+.card .card_title,
+.card .card_icon{
+    transition: all 0.2s linear;
+    will-change: corlor, fill, border-color;
+}
+
+.card:hover .card_icon svg{
+    fill:var(--clr-primary);
+}
+
+
+.card:hover .card_title{
+    color:var(--clr-primary);
+}
+
+.card:hover .card_icon{
+    border-color: var(--clr-primary);
+}
+
+.service_list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:2rem;
+
+    margin-top: 6rem;
+}
+
+@media screen and (max-width: 992px){
+    .title__placeholder{
+        display: none;
+    }
+    .service_list{
+        grid-template-columns: repeat(2,1fr);
+        gap:2rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .service_list{
+        grid-template-columns: repeat(1,1fr);
+        gap:2rem;
+    }
+}
