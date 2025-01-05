@@ -1,0 +1,124 @@
+#contact{
+    padding-bottom: 100px;
+}
+.contact__title{
+    text-align: center;
+    font-size: 2.4rem;
+    color: var(--clr-primary);
+    position: relative;
+    font-weight: 500;
+}
+.contact__placeholder{
+    font-size: 9rem;
+    color: rgba(21, 27, 41, 0.5);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    line-height: 1;
+    z-index: -1;
+}
+
+
+.contact__title::before {
+    content: "";
+    position: absolute;
+    top: calc(100% + 1rem);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 17rem;
+    height: 0.2rem;
+    background-color: var(--clr-secondary);
+}
+
+.contact__title::after {
+    content: "";
+    position: absolute;
+    top: calc(100% + 1rem);
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 7rem;
+    height: 0.2rem;
+    background-color: var(--clr-primary);
+}
+
+.contact_contents{
+    padding-bottom: 150px;
+}
+.contact_wrapper{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 30px;
+}
+
+#formcontact input,#formcontact textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px 10px;
+    border: 1px solid #232935;
+    border-radius: 5px;
+    background-color: #101624;
+}
+
+.btn_contact{
+    display: block;
+    padding: 10px 30px;
+    background-color: #FEC544;
+    border-radius: 50px;
+    cursor:pointer;
+    margin: 10px 0;
+}
+.contact_wrapper h1{
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.contact_info_contents{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact_info{
+    color: #A9ADB8;
+}
+
+.social i{
+    margin-right: 30px;
+    padding: 20px;
+    border: 1px solid #232935;
+    border-radius: 50px;
+    color: #A9ADB8;
+}
+
+.contact_info_contents i{
+    margin-right: 30px;
+    padding: 22px;
+    border: 1px solid #232935;
+    border-radius: 50px;
+    color: #A9ADB8;
+}
+
+.contact_info_contents h2{
+    color: white;
+    font-weight: 300;
+}
+
+.contact_info p{
+    margin-bottom: 3px;
+}
+
+.contact_info h2{
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.contact_info_contents i:hover{
+    border: 1px solid var(--clr-primary);
+}

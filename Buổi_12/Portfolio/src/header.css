@@ -8,7 +8,7 @@
 }
 
 header{
-    background-color: rgba(7, 13, 27, 0.9);
+    background-color: rgb(7, 13, 27);
     position:relative;
     /* để  */
     position: fixed;

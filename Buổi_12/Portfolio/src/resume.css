@@ -1,3 +1,8 @@
+#resume{
+    padding-bottom: 100px;
+    /* background-color: var(--clr-bg);
+    color: var(--clr-text); */
+}
 .resume__title{
     text-align: center;
     font-size: 2.4rem;
@@ -41,3 +46,60 @@
     height: 0.2rem;
     background-color: var(--clr-primary);
 }
+
+
+.resume_contents{
+    padding-bottom: 70px;
+}
+.resume_wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); ;
+    /* justify-items: center; */
+    align-items: center;
+}
+
+.experience_tittle, .education_tittle{
+    display: flex;
+    justify-items: center;
+    align-items:center;
+    gap: 30px;
+}
+
+.experience_contents,.education_contents{
+    padding-left: 50px;
+}
+
+.experience_tittle i, .education_tittle i{
+    color: #393F4C;
+    font-size: 30px;
+}
+.experience_tittle h1, .education_tittle h1{
+    color: white;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 450;
+}
+
+.experience_contents h2,.education_contents h2{
+    color: var(--clr-primary);
+    font-weight: 400;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.experience_contents h3,.education_contents h3{
+    color: white;
+    font-weight: 400;
+    padding-top: 15px;
+    padding-bottom: 15px;   
+}
+
+.experience_contents h4, .education_contents h4{
+    color: var(--clr-secondary);
+    font-weight: 400;
+}
+
+.experience_contents p, .education_contents p{
+    color: var(--clr-secondary);
+    font-weight: 400;
+}   

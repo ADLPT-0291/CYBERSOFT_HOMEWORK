@@ -1,0 +1,10 @@
+.footer_contents{
+    background-color: #0A101E;
+}
+
+.footer_contents p{
+    text-align: center;
+    font-size: 1.6rem;
+    color: var(--clr-secondary);
+    padding: 20px 0;
+}
