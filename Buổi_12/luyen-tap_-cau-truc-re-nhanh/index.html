@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <h1>Bài tập 1</h1>
+    <input type="number" id="number1" placeholder="Nhập số">
+    <button id="ktr1" onclick="kiemTraSoDuongAm()">Kiểm tra</button>
+    <p>Kết quả: <span id="kq1"></span></p>
+    <hr>
+    <h1>Bài tập 2</h1>
+    <input type="number" id="number2" placeholder="Xin mời nhập tuổi">
+    <button id="ktr2" onclick="kiemTraTuoi()">Kiểm tra</button>
+    <p>Kết quả: <span id="kq2"></span></p>
+    <hr>
+    <h1>Bài tập 3</h1>
+    <input type="number" id="number3" placeholder="Xin mời nhập tuổi">
+    <button id="ktr3" onclick="kiemTraTuoiLaiXe()">Kiểm tra</button>
+    <p>Kết quả: <span id="kq3"></span></p>
+    <hr>
+    <h1>Bài tập 4</h1>
+    <h2>Xét thưởng cho nhân viên</h2>
+    <p>Nếu đạt được mục tiêu trên 100 sản phẩm sẽ được thưởng 10% doanh số:</p>
+    <input type="number" id="number4" placeholder="Xin mời số lượng">
+    <button id="ktr4" onclick="kiemTraXetThuong()">Kiểm tra</button>
+    <p>Doanh số được: <span id="kq4"></span></p>
+    <p>Doanh số sau khi thưởng: <span id="kqthuong"></span></p>
+    <hr>
+    <h1>Bài tập 6</h1>
+    <h2>Tính chiết khấu</h2>
+    <p>Khách hàng có giá trị hoá đơn trên 500$ sẽ được giảm 20% trên hoá đơn:</p>
+    <input type="number" id="number6" placeholder="Xin mời số tiền">
+    <button id="ktr6" onclick="tinhChiecKhau()">Tính</button>
+    <p>Tiền khách mua: <span id="kq6"></span></p>
+    <p>Tiền sau khi được giảm 20%: <span id="kqchieckhau"></span> </p>
+    <hr>
+    <h1>Bài tập 7</h1>
+    <input type="number" id="number7" placeholder="Xin mời nhập tháng">
+    <button id="ktr7" onclick="kiemTraMua()">Kiểm tra</button>
+    <p>Kết quả: <span id="kq7"></span></p>
+    <hr>
+    <h1>Bài tập 8</h1>
+    <h2>Chọn chế độ lái xe</h2>
+    <select id="list" name="referrer" onclick="chonCheDoLai()">
+        <option value="">(select one)</option>
+        <option value="1">normal</option>
+        <option value="2">eco</option>
+        <option value="3">sport</option>
+    </select>
+    <p>Chế độ lái: <span id="kq8"></span></p>
+    <script src="./index.js">
+     </script>
+</body>
+</html>
