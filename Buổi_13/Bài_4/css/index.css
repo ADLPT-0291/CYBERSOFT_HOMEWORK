@@ -1,0 +1,74 @@
+.baitap{
+    background-color: #C2E9E6;
+    width: 50%;
+    height: 500px;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.baitap h1{
+    padding: 30px;
+}
+.baitap_tittle{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 30px;
+}
+.baitap_tittle i{
+    color: #F3C07B;
+}
+
+.baitap_tittle h2{
+    font-weight: 500;
+}
+.solieudauvao{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.solieudauvao input,.solieudauvao select{
+    /* margin-left: 30px; */
+    padding: 10px;
+    justify-content: center;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #EDF1F3;
+    border: 1px solid #EDF1F3;
+    box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.1), 
+              inset -4px -4px 8px rgba(255, 255, 255, 0.7);
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+
+.baitap button{
+    display: block;
+    padding: 15px 40px;
+    background-color: #4B70E2;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    cursor:pointer;
+    margin: 10px 0;
+    margin-left: 30px;
+}
+
+.btn_tinh{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 30px;
+    background-color: #D1E7DD;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+}
+.btn_tinh i{
+    color: #FFC83D;
+}
+
+#soketnoi{
+    display: none;
+}
