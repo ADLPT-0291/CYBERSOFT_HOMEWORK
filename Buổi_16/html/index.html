@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeWork</title>
+    <link rel="shortcut icon" href="../public/img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" 
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <div class="baitap">
+        <h1>Bài Tập </h1>
+        <div class="solieudauvao">
+            <input type="number" id="number" placeholder="Nhập số n">
+            <button onclick="themSo()">Thêm số</button>
+        </div>
+        <div id="tinh" class="btn_tinh">
+            <i class="fa-regular fa-hand-point-right"></i>
+            <p>Kết quả: <span id="ketqua"></span></p>
+        </div>
+        <!-- -------------------------- -->
+        <div class="tinh">
+            <div class="baitaptinh">
+                <div id="title1" class="title" onclick="hienThi1()">
+                    <div class="title_left">
+                        <i class="fa-solid fa-1"></i>
+                        Tổng số dương
+                    </div>
+                    <i id="icon1" class="fa-solid fa-angle-down"></i>
+                </div>
+                <div id="hienthi1" class="an">
+                    <div class="solieudauvao">
+                        <button onclick="tongSoDuong()">Tổng số dương</button>
+                    </div>
+                    <div class="btn_tinh">
+                        <i class="fa-regular fa-hand-point-right"></i>
+                        <p>Kết quả: <span id="ketqua1"></span></p>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------- -->
+            <div class="baitaptinh">
+                <div id="title2" class="title" onclick="hienThi2()">
+                    <div class="title_left">
+                        <i class="fa-solid fa-2"></i>
+                        Đếm số dương
+                    </div>
+                    <i id="icon2" class="fa-solid fa-angle-down"></i>
+                </div>
+                <div id="hienthi2" class="an2">
+                    <div class="solieudauvao">
+                        <button onclick="demSoDuong()">Đếm số dương</button>
+                    </div>
+                    <div class="btn_tinh">
+                        <i class="fa-regular fa-hand-point-right"></i>
+                        <p>Kết quả: <span id="ketqua2"></span></p>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------- -->
+            <div class="baitaptinh">
+                <div id="title3" class="title" onclick="hienThi3()">
+                    <div class="title_left">
+                        <i class="fa-solid fa-3"></i>
+                        Tìm số nhỏ nhất
+                    </div>
+                    <i id="icon3" class="fa-solid fa-angle-down"></i>
+                </div>
+                <div id="hienthi3" class="an3">
+                    <div class="solieudauvao">
+                        <button onclick="timSoNhoNhat()">Tìm số nhỏ nhất</button>
+                    </div>
+                    <div class="btn_tinh">
+                        <i class="fa-regular fa-hand-point-right"></i>
+                        <p>Kết quả: <span id="ketqua3"></span></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- -------------------------- -->
+
+            <!-- -------------------------- -->
+            <div class="baitaptinh">
+                <div id="title4" class="title" onclick="hienThi4()">
+                    <div class="title_left">
+                        <i class="fa-solid fa-4"></i>
+                        Tìm số dương nhỏ nhất
+                    </div>
+                    <i id="icon4" class="fa-solid fa-angle-down"></i>
+                </div>
+                <div id="hienthi4" class="an4">
+                    <div class="solieudauvao">
+                        <button onclick="timSoDuongNhoNhat()">Tìm số dương nhỏ nhất</button>
+                    </div>
+                    <div class="btn_tinh">
+                        <i class="fa-regular fa-hand-point-right"></i>
+                        <p>Kết quả: <span id="ketqua4"></span></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- -------------------------- -->
+
+            <!-- -------------------------- -->
+            <div class="baitaptinh">
+                <div id="title5" class="title" onclick="hienThi5()">
+                    <div class="title_left">
+                        <i class="fa-solid fa-5"></i>
+                        Tìm số chẵn cuối cùng
+                    </div>
+                    <i id="icon5" class="fa-solid fa-angle-down"></i>
+                </div>
+                <div id="hienthi5" class="an5">
+                    <div class="solieudauvao">
+                        <button onclick="timSoChanCuoiCung()">Tìm số chẵn cuối cùng</button>
+                    </div>
+                    <div class="btn_tinh">
+                        <i class="fa-regular fa-hand-point-right"></i>
+                        <p>Kết quả: <span id="ketqua5"></span></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- -------------------------- -->
+
+            <!-- -------------------------- -->
+            <div class="baitaptinh">
+                <div id="title6" class="title" onclick="hienThi6()">
+                    <div class="title_left">
+                        <i class="fa-solid fa-6"></i>
+                        Đổi chỗ
+                    </div>
+                    <i id="icon6" class="fa-solid fa-angle-down"></i>
+                </div>
+                <div id="hienthi6" class="an6">
+                    <div class="solieudauvao">
+                        <input type="number" id="number1" placeholder="Nhập vị trí số 1">
+                        <input type="number" id="number2" placeholder="Nhập vị trí số 2">
+                        <button onclick="doiCho()">Đổi chỗ</button>
+                    </div>
+                    <div class="btn_tinh">
+                        <i class="fa-regular fa-hand-point-right"></i>
+                        <p>Kết quả: <span id="ketqua6"></span></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- -------------------------- -->
+
+            <!-- -------------------------- -->
+            <div class="baitaptinh">
+                <div id="title7" class="title" onclick="hienThi7()">
+                    <div class="title_left">
+                        <i class="fa-solid fa-7"></i>
+                        Sắp xếp tăng dần
+                    </div>
+                    <i id="icon7" class="fa-solid fa-angle-down"></i>
+                </div>
+                <div id="hienthi7" class="an7">
+                    <div class="solieudauvao">
+                        <button onclick="sapXepTangDan()">Sắp xếp tăng dần</button>
+                    </div>
+                    <div class="btn_tinh">
+                        <i class="fa-regular fa-hand-point-right"></i>
+                        <p>Kết quả: <span id="ketqua7"></span></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- -------------------------- -->
+            
+            <!-- -------------------------- -->
+            <div class="baitaptinh">
+                <div id="title8" class="title" onclick="hienThi8()">
+                    <div class="title_left">
+                        <i class="fa-solid fa-8"></i>
+                        Tìm số nguyên tố đầu tiên
+                    </div>
+                    <i id="icon8" class="fa-solid fa-angle-down"></i>
+                </div>
+                <div id="hienthi8" class="an8">
+                    <div class="solieudauvao">
+                        <button onclick="timSoNguyenToDauTien()">Tìm số nguyên tố đầu tiên</button>
+                    </div>
+                    <div class="btn_tinh">
+                        <i class="fa-regular fa-hand-point-right"></i>
+                        <p>Kết quả: <span id="ketqua8"></span></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- -------------------------- -->
+
+            <!-- -------------------------- -->
+            <div class="baitaptinh">
+                <div id="title9" class="title" onclick="hienThi9()">
+                    <div class="title_left">
+                        <i class="fa-solid fa-9"></i>
+                        Đếm số nguyên
+                    </div>
+                    <i id="icon9" class="fa-solid fa-angle-down"></i>
+                </div>
+                <div id="hienthi9_1" class="an9_1">
+                    <div class="solieudauvao">
+                        <input type="number" id="number9" placeholder="Nhập số">
+                        <button onclick="themSo9()">Thêm số</button>
+                    </div>
+                    <div id="tinh" class="btn_tinh1">
+                        <i class="fa-regular fa-hand-point-right"></i>
+                        <p>Kết quả: <span id="ketqua9_1"></span></p>
+                    </div>
+                </div>
+                <div id="hienthi9_2" class="an9_2">
+                    <div class="solieudauvao">
+                        <button onclick="demSoNguyen()">Đếm số nguyên</button>
+                    </div>
+                    <div class="btn_tinh">
+                        <i class="fa-regular fa-hand-point-right"></i>
+                        <p>Kết quả: <span id="ketqua9_2"></span></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- -------------------------- -->
+
+            <!-- -------------------------- -->
+            <div class="baitaptinh">
+                <div id="title10" class="title" onclick="hienThi10()">
+                    <div class="title_left">
+                        <i class="so_10">10</i>
+                        So sánh số lượng âm và dương
+                    </div>
+                    <i id="icon10" class="fa-solid fa-angle-down"></i>
+                </div>
+                <div id="hienthi10" class="an10">
+                    <div class="solieudauvao">
+                        <button onclick="soSanh()">So sánh</button>
+                    </div>
+                    <div class="btn_tinh">
+                        <i class="fa-regular fa-hand-point-right"></i>
+                        <p>Kết quả: <span id="ketqua10"></span></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- -------------------------- -->
+        </div>
+    </div>
+    <script src="../js/index.js"></script>
+</body>
+</html>
