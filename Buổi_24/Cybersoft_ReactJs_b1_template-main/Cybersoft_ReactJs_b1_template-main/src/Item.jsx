@@ -1,4 +1,4 @@
-export function PageContent(){
+export function Item(){
     return (
         <>
             {/* Page Content*/}
